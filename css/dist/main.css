@@ -36,8 +36,6 @@ body {
   justify-content: space-between;
 }
 .chat-container .header .info h4 {
-  font-family: Lato;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -45,8 +43,6 @@ body {
   margin-bottom: 5px;
 }
 .chat-container .header .info span {
-  font-family: Lato;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
@@ -82,8 +78,6 @@ body {
   height: 100%;
   background: rgba(219, 228, 238, 0.5);
   border-radius: 5px;
-  font-family: Lato;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
@@ -108,8 +102,6 @@ body {
   margin-right: 15px;
 }
 .chat-container .chats .user-info a h4 {
-  font-family: Lato;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;

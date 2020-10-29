@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Lato", sans-serif;
+}
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: #EBF4FF;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.chat-container {
+  width: 454px;
+  height: 763px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.chat-container .header {
+  padding: 20px 30px;
+  border-bottom: 1px solid #DBE4EE;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat-container .header .info h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #344057;
+  margin-bottom: 5px;
+}
+.chat-container .header .info span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #878F9D;
+}
+.chat-container .header .icons {
+  display: flex;
+  align-items: center;
+}
+.chat-container .header .icons a {
+  cursor: pointer;
+}
+.chat-container .header .icons a img {
+  margin-left: 45px;
+  width: 24px;
+  height: 24px;
+}
+.chat-container .chats {
+  padding: 20px 30px 30px;
+}
+.chat-container .chats .search {
+  position: relative;
+  width: 394px;
+  height: 68px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.chat-container .chats .search input {
+  display: flex;
+  align-items: center;
+  padding: 22px 63px;
+  width: 100%;
+  height: 100%;
+  background: rgba(219, 228, 238, 0.5);
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #878F9D;
+}
+.chat-container .chats .search img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+.chat-container .chats .user-info a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.chat-container .chats .user-info a img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  margin-right: 15px;
+}
+.chat-container .chats .user-info a h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.chat-container .chats .user-info:last-child {
+  margin-bottom: 0px;
+}

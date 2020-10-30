@@ -105,10 +105,28 @@ body {
       .user-info{
         
          a{
+            position: relative;
             display: flex;
             align-items: center;
             margin-bottom: 30px;
             cursor: pointer;
+
+            .state{
+               position: absolute;
+               width: 16px;
+               height: 16px;
+               border-radius: 16px;
+               background-color: #878F9D;
+               box-sizing: border-box;
+               border: 2px solid #fff;
+               top:3px;
+               left: 59px;
+            }
+
+            .active{
+               background-color: #9DCC51;
+            }
+
             img{
                width: 80px;
                height: 80px;
